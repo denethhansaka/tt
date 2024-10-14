@@ -2,8 +2,8 @@ const { fetchJson } = require('../lib/functions')
 const config = require('../config')
 const { cmd, commands } = require('../command')
 
-//====DENETH-MD=======
-let cap = 'DENETH-MD ☠'
+//====𝗩𝗜𝗦𝗛𝗪𝗔-𝗠𝗗=======
+let cap = '𝐕𝐈𝐒𝐇𝐖𝐀-𝐌𝐃 ☠'
 
 // <========FETCH API URL========>
 let baseUrl;
