@@ -29,7 +29,7 @@ let downloadUrl = down.dl_url
 
 //send audio + document message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗩𝗜𝗦𝗛𝗪𝗔-𝗠𝗗☠ "},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴏꜰꜰɪᴄɪᴀʟ "},{quoted:mek})
 
 
 
@@ -67,7 +67,7 @@ let downloadUrl = down.dl_url
 
 //send video+ document message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 𝙑𝙄𝙎𝙃𝙒𝘼-𝙈𝘿㋡ "},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-ᴍᴅ ᴏꜰꜰɪᴄɪᴀʟ "},{quoted:mek})
 
 
 
